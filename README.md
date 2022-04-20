@@ -24,8 +24,7 @@ research, please consider citing:
 ```
 
 ## Installation
-
-This implementation has been tested on Ubuntu 18.04 and Windows 10. Details are provided in [INSTALL.md](./INSTALL.md).
+Simply run: ``pip install .`` from this directory.
 
 
 ## Experiments
