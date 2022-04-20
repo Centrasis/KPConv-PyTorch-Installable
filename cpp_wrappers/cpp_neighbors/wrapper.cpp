@@ -35,7 +35,7 @@ static PyMethodDef module_methods[] =
 static struct PyModuleDef moduledef = 
 {
     PyModuleDef_HEAD_INIT,
-    "radius_neighbors",		// m_name
+    "KPConv_radius_neighbors",		// m_name
     module_docstring,       // m_doc
     -1,                     // m_size
     module_methods,         // m_methods
@@ -45,7 +45,7 @@ static struct PyModuleDef moduledef =
     NULL,                   // m_free
 };
 
-PyMODINIT_FUNC PyInit_radius_neighbors(void)
+PyMODINIT_FUNC PyInit_KPConv_radius_neighbors(void)
 {
     import_array();
 	return PyModule_Create(&moduledef);

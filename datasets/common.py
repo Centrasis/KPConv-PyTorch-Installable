@@ -27,13 +27,13 @@ import numpy as np
 import sys
 import torch
 from torch.utils.data import DataLoader, Dataset
-from utils.config import Config
-from utils.mayavi_visu import *
-from kernels.kernel_points import create_3D_rotations
+from KPConv.utils.config import Config
+from KPConv.utils.mayavi_visu import *
+from KPConv.kernels.kernel_points import create_3D_rotations
 
 # Subsampling extension
-import cpp_wrappers.cpp_subsampling.grid_subsampling as cpp_subsampling
-import cpp_wrappers.cpp_neighbors.radius_neighbors as cpp_neighbors
+import KPConv_grid_subsampling as cpp_subsampling
+import KPConv_radius_neighbors as cpp_neighbors
 
 # ----------------------------------------------------------------------------------------------------------------------
 #

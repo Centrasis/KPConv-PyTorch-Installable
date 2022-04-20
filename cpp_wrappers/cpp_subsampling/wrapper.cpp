@@ -39,7 +39,7 @@ static PyMethodDef module_methods[] =
 static struct PyModuleDef moduledef = 
 {
     PyModuleDef_HEAD_INIT,
-    "grid_subsampling",     // m_name
+    "KPConv_grid_subsampling",     // m_name
     module_docstring,       // m_doc
     -1,                     // m_size
     module_methods,         // m_methods
@@ -49,7 +49,7 @@ static struct PyModuleDef moduledef =
     NULL,                   // m_free
 };
 
-PyMODINIT_FUNC PyInit_grid_subsampling(void)
+PyMODINIT_FUNC PyInit_KPConv_grid_subsampling(void)
 {
     import_array();
 	return PyModule_Create(&moduledef);
