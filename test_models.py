@@ -29,14 +29,14 @@ import sys
 import torch
 
 # Dataset
-from datasets.ModelNet40 import *
-from datasets.S3DIS import *
-from datasets.SemanticKitti import *
+from KPConv.datasets.ModelNet40 import *
+from KPConv.datasets.S3DIS import *
+from KPConv.datasets.SemanticKitti import *
 from torch.utils.data import DataLoader
 
-from utils.config import Config
-from utils.tester import ModelTester
-from models.architectures import KPCNN, KPFCNN
+from KPConv.utils.config import Config
+from KPConv.utils.tester import ModelTester
+from KPConv.models.architectures import KPCNN, KPFCNN
 
 
 # ----------------------------------------------------------------------------------------------------------------------

@@ -36,13 +36,13 @@ from os import listdir
 from os.path import exists, join, isdir
 
 # Dataset parent class
-from datasets.common import *
+from KPConv.datasets.common import *
 from torch.utils.data import Sampler, get_worker_info
-from utils.mayavi_visu import *
-from utils.metrics import fast_confusion
+from KPConv.utils.mayavi_visu import *
+from KPConv.utils.metrics import fast_confusion
 
-from datasets.common import grid_subsampling
-from utils.config import bcolors
+from KPConv.datasets.common import grid_subsampling
+from KPConv.utils.config import bcolors
 
 
 # ----------------------------------------------------------------------------------------------------------------------

@@ -32,14 +32,14 @@ from sklearn.metrics import confusion_matrix
 import time
 
 # My libs
-from utils.config import Config
-from utils.metrics import IoU_from_confusions, smooth_metrics, fast_confusion
-from utils.ply import read_ply
+from KPConv.utils.config import Config
+from KPConv.utils.metrics import IoU_from_confusions, smooth_metrics, fast_confusion
+from KPConv.utils.ply import read_ply
 
 # Datasets
-from datasets.ModelNet40 import ModelNet40Dataset
-from datasets.S3DIS import S3DISDataset
-from datasets.SemanticKitti import SemanticKittiDataset
+from KPConv.datasets.ModelNet40 import ModelNet40Dataset
+from KPConv.datasets.S3DIS import S3DISDataset
+from KPConv.datasets.SemanticKitti import SemanticKittiDataset
 
 # ----------------------------------------------------------------------------------------------------------------------
 #

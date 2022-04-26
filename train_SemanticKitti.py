@@ -29,12 +29,12 @@ import sys
 import torch
 
 # Dataset
-from datasets.SemanticKitti import *
+from KPConv.datasets.SemanticKitti import *
 from torch.utils.data import DataLoader
 
-from utils.config import Config
-from utils.trainer import ModelTrainer
-from models.architectures import KPFCNN
+from KPConv.utils.config import Config
+from KPConv.utils.trainer import ModelTrainer
+from KPConv.models.architectures import KPFCNN
 
 
 # ----------------------------------------------------------------------------------------------------------------------
